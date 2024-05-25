@@ -1,5 +1,5 @@
 
-if (CMAKE_CXX_COMPILER_ID  "(Clang)|(GNU)")
+if (CMAKE_CXX_COMPILER_ID MATCHES "(Clang)|(GNU)")
     add_compile_options(-Wall -Wextra -Wshadow -Wfloat-equal -Wconversion)
     if (CMAKE_BUILD_TYPE STREQUAL "Debug")
         add_compile_options(
