@@ -2,6 +2,6 @@
 
 pushd `dirname $0`
 touch samples/$1.in
-touch samples/$1.out
+touch samples/$1.ans
 touch CMakeLists.txt
 popd
