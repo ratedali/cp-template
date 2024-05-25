@@ -1,6 +1,6 @@
 
 cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
-project(cp2020-TEAMNAME)
+project(project)
 include(common.cmake)
 
 include(contests/contents.cmake)
